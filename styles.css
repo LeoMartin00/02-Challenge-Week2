@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+    
+}
+
+body {
+  font-family: Arial;
+  margin: 0 ;
+}
+
+header {
+  text-align: center;
+  background:#3808bb;
+  color: #fdf9f9;
+  
+}
+nav {
+  display: flex;
+  background-color: #949491;
+  justify-content:flex-end;
+  flex-flow:column ;  
+}
+
+nav p {
+  padding: 4px 30px;
+
+  }
+
+main {
+  display: flex;
+}
+
+aside {
+  background-color: #e0e5a6;
+  padding: 15px;
+}
+li:hover {
+  color: #772014;
+  
+}
+
+li:active{
+  color:rgb(120, 19, 19)
+}
+li:focus {
+  color: #772014(120, 19, 19);
+}
+section {
+  flex: 70%;
+  background-color: #fff;
+  padding: 20px;
+  background-image:url(../images/Black\ Panther\ Best.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+.Project-box {
+  flex:content;
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  border: 1px solid grey;
+  box-shadow: #3808bb 5px 3px 4px 2px;
+    
+}
+.Project-box:hover {
+  background: rgb(143, 142, 139);
+  color: white;
+}
+button:hover {
+  background-color: #772014;
+  color: #f3c9c9;
+}
+
+button:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #a0b42a inset;
+}
+
+button:focus {
+  outline: none;
+  border-color: #8ac4ff;
+}
+
+form {
+  display:flexbox;  
+  padding: 4px;
+  color: #edebeb;
+  margin-top: 30px;
+     
+}
+
+form h3 {
+  font-size: 150%;
+}
+
+form p {
+  margin: 3% 0;
+}
+
+label {
+  display: block;
+}
+
+button {
+  padding: 1% 2%;
+  color: #fff;
+  background-color: #13293d;
+  outline: none;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+
+.text-input {
+  width: 100%;
+  max-width: 100%;
+}
+
+.text-input, select {
+  padding: 1%;
+  outline: none;
+  border: 1.2px solid #b9C6ae;
+}
+
+.text-input:hover, .checkbox:hover, 
+select:hover, button:hover {
+  box-shadow: 0 0 10px #3808bb;
+}
+
+.text-input:focus {
+  border-right-width: 5px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.flex-row select {
+  flex: 1 0 0;
+  margin-left: 2%;
+}
+
+.flex-row input {
+  margin-right: 2%;
+}
+
+.checkbox:checked + label {
+  color: #999999;
+  font-style: italic;
+}
+
+.checkbox:checked + label::after {
+  margin-left: 10px;
+  font-size: 90%;
+  content: "(thanks!)";
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #3808bb;
+  color: #fff;
+}
+
+/* small phone */
+@media screen and (max-width: 576px) {
+aside {
+  background: rgb(230, 218, 162) 
+ }
+.Project-box {
+  box-shadow: #772014 5px 3px 4px 2px;
+}
+footer {
+ background-color: #772014; 
+}
+/* large smart phones */
+@media screen and (max-width: 768px){
+header {
+  background: rgb(120, 19, 19);
+}
+}  
+/* tables size */
+@media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
+}
+.Project-box {
+box-shadow: #772014 5px 3px 4px 2px;}
+}
