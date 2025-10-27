@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0%;
+  color: rgb(199, 235, 145);
     
 }
 
@@ -32,16 +33,16 @@ main {
 }
 
 aside {
-  background-color: #e0e5a6;
+  background-color: #3f3f3c;
   padding: 15px;
 }
 li:hover {
-  color: #772014;
+  color: #e7dfdd;
   
 }
 
 li:active{
-  color:rgb(120, 19, 19)
+  color:rgb(218, 204, 11)
 }
 li:focus {
   color: #772014(120, 19, 19);
@@ -68,13 +69,13 @@ footer {
   flex:content;
   width: 100%;
   padding: 10px;
-  height: 100px;
+  height: fit-content;
   border: 1px solid grey;
   box-shadow: #3808bb 5px 3px 4px 2px;
     
 }
 .Project-box:hover {
-  background: rgb(143, 142, 139);
+  background: rgb(15, 15, 15);
   color: white;
 }
 button:hover {
@@ -180,7 +181,7 @@ footer {
 /* small phone */
 @media screen and (max-width: 576px) {
 aside {
-  background: rgb(230, 218, 162) 
+  background: rgb(129, 35, 6) 
  }
 .Project-box {
   box-shadow: #772014 5px 3px 4px 2px;
@@ -188,6 +189,8 @@ aside {
 footer {
  background-color: #772014; 
 }
+* {
+   color: rgb(233, 232, 155);
 /* large smart phones */
 @media screen and (max-width: 768px){
 header {
@@ -202,4 +205,4 @@ header {
 }
 .Project-box {
 box-shadow: #772014 5px 3px 4px 2px;}
-}
+}}
